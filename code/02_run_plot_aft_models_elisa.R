@@ -6,7 +6,8 @@ library(patchwork)
 library(lubridate)
 
 # load data----
-load("../2022_covid_shedding/data/dat_shed_2022-04-07.RData")
+#load("../2022_covid_shedding/data/dat_shed_2022-04-07.RData")
+load("./data.RData")
 
 # exclude vaxx'd >= 2 weeks prior to elisa ----
 # nv = no vaccinated 

@@ -2,7 +2,7 @@ library(tidyverse)
 library(patchwork)
 library(lubridate)
 
-load("../2022_covid_shedding/data/dat_shed_2022-04-07.RData")
+load("./data.RData")
 source("./code/00_functionS2.R")
 
 dat_nest <- dat_shed %>% nest(data = everything()) %>% 
